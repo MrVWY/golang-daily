@@ -29,6 +29,21 @@ func (p testint) testsquare() int {
 	return 0
 }
 
+type Foo struct {
+	    val int
+	}
+
+func (f Foo) Inc(inc int) {
+	f.val += inc
+}
+
+type Foo2 struct {
+	val int
+}
+
+func (f *Foo2) Inc(inc int) {
+	f.val += inc
+}
 
 func main() {
 	a := 1
@@ -38,10 +53,17 @@ func main() {
 	modify1(&a)
 	fmt.Println(a)
 
-
 	var i testint = 2
 	i.testdouble()
 	fmt.Println("i = ", i)
 	i.testsquare()
 	fmt.Println("i = ", i)
+
+	var f Foo
+	f.Inc(100)
+	fmt.Println(f.val)
+
+	var f2 Foo2
+	f2.Inc(100)
+	fmt.Println(f2.val)
 }
