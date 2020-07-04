@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b05e94b-b0fd-44be-9952-1f00dce0a0da" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7b05e94b-b0fd-44be-9952-1f00dce0a0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Micro-use/athu/athu-api/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/athu/athu-api/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Micro-use/athu/athu-api/model/access/athu.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/athu/athu-api/model/access/athu.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Micro-use/athu/proto/athu.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/athu/proto/athu.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Micro-use/athu/proto/athu.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/athu/proto/athu.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Micro-use/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Micro-use/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../Micro-use/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/main/main1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/model/student.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +44,15 @@
   </component>
   <component name="GOROOT" path="E:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PJN6StY2wTT6hwrFP3HvxUqsqw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
@@ -47,103 +62,104 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GolangDesignPatterns" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\36527\go\src\awesomeProject1\office" />
-      <recent name="C:\Users\36527\go\src\awesomeProject1" />
-      <recent name="C:\Users\36527\go\src\awesomeProject1\profect\client\clientprocess" />
-      <recent name="C:\Users\36527\go\src\awesomeProject1\profect\client\main" />
-      <recent name="C:\Users\36527\go\src\awesomeProject1\profect\server" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\36527\go\src\awesomeProject1\test" />
       <recent name="C:\Users\36527\go\src\awesomeProject1\profect\common\message" />
       <recent name="C:\Users\ZJL\go\src\awesomeProject1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\G\awesomeProject1\GoTest" />
+      <recent name="C:\Users\36527\go\src\awesomeProject1\office" />
+      <recent name="C:\Users\36527\go\src\awesomeProject1" />
+      <recent name="C:\Users\36527\go\src\awesomeProject1\profect\client\clientprocess" />
+      <recent name="C:\Users\36527\go\src\awesomeProject1\profect\client\main" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build S27.go">
-    <configuration name="go build 1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkGetArea in S32_test.go">
+    <configuration name="go build S31.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.go" />
-      <package value="awesomeProject1" />
+      <filePath value="$PROJECT_DIR$/S31.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build S27.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkGetArea in S32_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/GoTest" />
+      <framework value="gobench" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/S27.go" />
-      <package value="awesomeProject1" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/GoTest/S32_test.go" />
+      <pattern value="^BenchmarkGetArea$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build S2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="S32_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/GoTest" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/S2.go" />
-      <package value="awesomeProject1" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/GoTest/S32_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject1 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="S32_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/S26.go" />
-      <package value="awesomeProject1" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/S32_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetArea in S32_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/GoTest" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/S.go" />
-      <package value="awesomeProject1" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/GoTest/S32_test.go" />
+      <pattern value="^TestGetArea$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build awesomeProject1 (1)" />
-      <item itemvalue="Go Build.go build S2.go" />
-      <item itemvalue="Go Build.go build awesomeProject1" />
-      <item itemvalue="Go Build.go build 1.go" />
-      <item itemvalue="Go Build.go build S27.go" />
+      <item itemvalue="Go Build.go build S31.go" />
+      <item itemvalue="Go Test.S32_test.go" />
+      <item itemvalue="Go Test.S32_test.go (1)" />
+      <item itemvalue="Go Test.TestGetArea in S32_test.go" />
+      <item itemvalue="Go Test.BenchmarkGetArea in S32_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build S27.go" />
-        <item itemvalue="Go Build.go build 1.go" />
-        <item itemvalue="Go Build.go build awesomeProject1" />
-        <item itemvalue="Go Build.go build S2.go" />
-        <item itemvalue="Go Build.go build awesomeProject1 (1)" />
+        <item itemvalue="Go Test.BenchmarkGetArea in S32_test.go" />
+        <item itemvalue="Go Test.TestGetArea in S32_test.go" />
+        <item itemvalue="Go Test.S32_test.go (1)" />
+        <item itemvalue="Go Test.S32_test.go" />
+        <item itemvalue="Go Build.go build S31.go" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -163,5 +179,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="741" y="354" key="FileChooserDialogImpl" timestamp="1578537042976">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="741" y="354" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578537042976" />
+    <state width="1541" height="158" key="GridCell.Tab.0.bottom" timestamp="1578540260048">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1541" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578540260048" />
+    <state width="1815" height="203" key="GridCell.Tab.0.bottom/2560.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1577540989205" />
+    <state width="1541" height="158" key="GridCell.Tab.0.center" timestamp="1578540260048">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1541" height="158" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578540260048" />
+    <state width="1815" height="203" key="GridCell.Tab.0.center/2560.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1577540989205" />
+    <state width="1541" height="158" key="GridCell.Tab.0.left" timestamp="1578540260047">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1541" height="158" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578540260047" />
+    <state width="1815" height="203" key="GridCell.Tab.0.left/2560.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1577540989205" />
+    <state width="1541" height="158" key="GridCell.Tab.0.right" timestamp="1578540260048">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1541" height="158" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578540260048" />
+    <state width="1815" height="203" key="GridCell.Tab.0.right/2560.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1577540989205" />
+    <state x="794" y="491" key="SettingsEditor" timestamp="1577195205534">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="794" y="491" key="SettingsEditor/2560.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1577195205534" />
   </component>
 </project>
